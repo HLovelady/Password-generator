@@ -42,3 +42,10 @@ https://github.com/HLovelady/Password-generator
 
 
 ## Application URL
+
+
+## Credits
+N/A
+
+## License
+GNU General Public License v3.0
