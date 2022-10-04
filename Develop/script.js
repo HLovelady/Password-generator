@@ -24,19 +24,19 @@ function writePassword() {
 // Confirm the rest of character conditions
   
    else{
-       if(confirm("If you would like to include lower case letters in your password, click OK. Otherwise, click Cancel.")){
+       if(confirm("If you would like to include lower case letters in your password, click OK. \nOtherwise, click Cancel.")){
            Array.prototype.push.apply(characters, charLowercase);
        }
  
-       if(confirm("If you would like to include upper case letters in your password, click OK. Otherwise, click Cancel.")){
+       if(confirm("If you would like to include upper case letters in your password, click OK. \nOtherwise, click Cancel.")){
            Array.prototype.push.apply(characters, charUppercase);
        }
  
-       if(confirm("If you would like to include numbers in your password, click OK. Otherwise, click Cancel.")){
+       if(confirm("If you would like to include numbers in your password, click OK. \nOtherwise, click Cancel.")){
            Array.prototype.push.apply(characters, charNumeric);
        }
  
-       if(confirm("If you would like to include special characters/symbols in your password, click OK. Otherwise, click Cancel.")){
+       if(confirm("If you would like to include special characters/symbols in your password, click OK. \nOtherwise, click Cancel.")){
            Array.prototype.push.apply(characters, charSpecial);
        }
  
